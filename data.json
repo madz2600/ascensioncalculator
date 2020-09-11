@@ -1,0 +1,66 @@
+{
+  "classes": {
+    "druid": {
+      "name": "Druid",
+      "icon": "ICONS/ClassIcon_Druid.PNG",
+      "specs": {
+        "Balance": {
+          "spells": {
+            "Wrath": {
+              "icon" : "ICONS/Spell_Nature_AbolishMagic.PNG",
+              "lvl_req": 1,
+              "resource_type": "mana",
+              "resource_cost": "7%",
+              "cast_time": 1.5,
+              "rank": 1,
+              "rank_max": 1,
+              "distance": 30,
+              "cooldown": 8,
+              "description": "Causes %d to %d Nature damage to the target. Deals %d% less damage to players.",
+              "upgrade_vals": {
+                "1": [23, 25, 10]
+              },
+              "cost_AE": 2,
+              "cost_TE": 0
+            }
+          },
+          "talents": {}
+        },
+        "Feral": {},
+        "Restoration": {}
+      }
+    },
+    "hunter": {
+      "name": "Hunter",
+      "icon": "ICONS/ClassIcon_Hunter.PNG"
+    },
+    "mage": {
+      "name": "Mage",
+      "icon": "ICONS/ClassIcon_Mage.PNG"
+    },
+    "paladin": {
+      "name": "Paladin",
+      "icon": "ICONS/ClassIcon_Paladin.PNG"
+    },
+    "priest": {
+      "name": "Priest",
+      "icon": "ICONS/ClassIcon_Priest.PNG"
+    },
+    "rogue": {
+      "name": "Rogue",
+      "icon": "ICONS/ClassIcon_Rogue.PNG"
+    },
+    "shaman": {
+      "name": "Shaman",
+      "icon": "ICONS/ClassIcon_Shaman.PNG"
+    },
+    "warlock": {
+      "name": "Warlock",
+      "icon": "ICONS/ClassIcon_Warlock.PNG"
+    },
+    "warrior": {
+      "name": "Warrior",
+      "icon": "ICONS/ClassIcon_Warrior.PNG"
+    }
+  }
+}
